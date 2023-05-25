@@ -41,7 +41,7 @@ public class DataModel {
         @JsonDeserialize(using = TransferDeserializer.class)
         private Function<Object, Object> transfer;
         private String type;
-        @JsonProperty("isArray")
+        @JsonProperty("is_array")
         private boolean array;
     }
 

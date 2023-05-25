@@ -11,7 +11,7 @@ field:
     transfer: TimestampToSecond
   - name: phone
     column: phone
-    isArray: true
+    is_array: true
   - name: address
     column: address
     nested_col_key: extra_info_string.key
@@ -20,5 +20,5 @@ field:
     column: device_id
     nested_col_key: extra_info_array.key
     nested_col_value: extra_info_array.value
-    isArray: true
+    is_array: true
 
